@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "code": "ko",
+    "name": "Korean",
+    "native": "한국어",
+    "flag": "🇰🇷",
+    "dir": "ltr"
+  },
+  "app": {
+    "name": "Docs2PDF",
+    "subtitle": "문서를 PDF로 즉시 변환"
+  },
+  "splash": {
+    "loading": "로딩 중..."
+  },
+  "onboarding": {
+    "title": "언어 선택",
+    "subtitle": "언어 선택",
+    "continue": "계속"
+  },
+  "dropzone": {
+    "dragTitle": "파일을 여기에 드래그하세요",
+    "dragActiveTitle": "놓아서 변환",
+    "dragSubtitle": "또는 기기에서 파일 선택",
+    "dragActiveSubtitle": "파일을 놓아서 시작",
+    "selectFiles": "파일 선택",
+    "formats": "지원 형식"
+  },
+  "fileList": {
+    "files": "개 파일",
+    "file": "개 파일"
+  },
+  "fileItem": {
+    "ready": "준비",
+    "converting": "변환 중...",
+    "done": "완료",
+    "failed": "실패",
+    "cancelled": "취소됨",
+    "showDetails": "세부정보 표시",
+    "hideDetails": "세부정보 숨기기"
+  },
+  "actionBar": {
+    "selectOutputDir": "출력 폴더 선택",
+    "selectedDir": "선택된 폴더",
+    "clearList": "목록 지우기",
+    "convertAll": "모두 변환",
+    "cancel": "취소"
+  },
+  "summary": {
+    "successTitle": "변환 성공",
+    "failedTitle": "변환 실패",
+    "partialTitle": "오류와 함께 완료",
+    "successCount": "개 파일 변환 성공",
+    "failedCount": "개 파일 실패",
+    "showAllFiles": "모든 파일 세부정보 표시",
+    "openOutputFolder": "결과 폴더 열기",
+    "retryFailed": "실패한 항목 재시도",
+    "convertNew": "새 파일 변환",
+    "conversionSuccess": "변환 성공"
+  },
+  "settings": {
+    "title": "설정",
+    "conversion": "변환",
+    "duplicateHandling": "중복 파일 처리",
+    "duplicateRename": "이름 변경",
+    "duplicateOverwrite": "덮어쓰기",
+    "paperSize": "용지 크기",
+    "paperDefault": "기본값",
+    "landscape": "가로",
+    "pdfA": "PDF/A",
+    "performance": "성능",
+    "concurrency": "최대 동시 실행",
+    "appearance": "외관",
+    "theme": "테마",
+    "themeLight": "라이트",
+    "themeDark": "다크",
+    "themeSystem": "시스템",
+    "language": "언어",
+    "general": "일반",
+    "autoOpenOutput": "변환 후 폴더 열기",
+    "about": "정보",
+    "version": "버전",
+    "developer": "개발자",
+    "license": "라이선스",
+    "github": "저장소",
+    "email": "연락처"
+  },
+  "errors": {
+    "selectOutputDir": "출력 폴더를 선택하세요",
+    "conversionFailed": "변환 실패"
+  },
+  "toast": {
+    "cancelled": "취소됨"
+  },
+  "about": {
+    "title": "정보",
+    "description": "Word, Excel, PowerPoint 파일을 PDF로 변환하는 데스크톱 애플리케이션",
+    "developer": "rn0x",
+    "email": "rn0x.me@gmail.com",
+    "github": "https://github.com/rn0x/Docs2PDF",
+    "license": "MIT",
+    "poweredBy": "office2pdf v0.6.7 기반"
+  }
+}

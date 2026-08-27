@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "code": "ja",
+    "name": "Japanese",
+    "native": "日本語",
+    "flag": "🇯🇵",
+    "dir": "ltr"
+  },
+  "app": {
+    "name": "Docs2PDF",
+    "subtitle": "ドキュメントをPDFに即座に変換"
+  },
+  "splash": {
+    "loading": "読み込み中..."
+  },
+  "onboarding": {
+    "title": "言語を選択",
+    "subtitle": "言語を選択",
+    "continue": "続ける"
+  },
+  "dropzone": {
+    "dragTitle": "ファイルをここにドラッグ",
+    "dragActiveTitle": "ドロップして変換",
+    "dragSubtitle": "またはデバイスからファイルを選択",
+    "dragActiveSubtitle": "ファイルをドロップして開始",
+    "selectFiles": "ファイルを選択",
+    "formats": "対応フォーマット"
+  },
+  "fileList": {
+    "files": "件のファイル",
+    "file": "件のファイル"
+  },
+  "fileItem": {
+    "ready": "準備完了",
+    "converting": "変換中...",
+    "done": "完了",
+    "failed": "失敗",
+    "cancelled": "キャンセル済み",
+    "showDetails": "詳細を表示",
+    "hideDetails": "詳細を非表示"
+  },
+  "actionBar": {
+    "selectOutputDir": "出力フォルダを選択",
+    "selectedDir": "選択されたフォルダ",
+    "clearList": "リストをクリア",
+    "convertAll": "すべて変換",
+    "cancel": "キャンセル"
+  },
+  "summary": {
+    "successTitle": "変換成功",
+    "failedTitle": "変換失敗",
+    "partialTitle": "エラー付きで完了",
+    "successCount": "件のファイルが正常に変換されました",
+    "failedCount": "件のファイルが失敗しました",
+    "showAllFiles": "すべてのファイルの詳細を表示",
+    "openOutputFolder": "出力フォルダを開く",
+    "retryFailed": "失敗したものを再試行",
+    "convertNew": "新しいファイルを変換",
+    "conversionSuccess": "正常に変換されました"
+  },
+  "settings": {
+    "title": "設定",
+    "conversion": "変換",
+    "duplicateHandling": "重複ファイルの処理",
+    "duplicateRename": "名前を変更",
+    "duplicateOverwrite": "上書き",
+    "paperSize": "用紙サイズ",
+    "paperDefault": "デフォルト",
+    "landscape": "横向き",
+    "pdfA": "PDF/A",
+    "performance": "パフォーマンス",
+    "concurrency": "最大同時実行数",
+    "appearance": "外観",
+    "theme": "テーマ",
+    "themeLight": "ライト",
+    "themeDark": "ダーク",
+    "themeSystem": "システム",
+    "language": "言語",
+    "general": "一般",
+    "autoOpenOutput": "変換後にフォルダを開く",
+    "about": "概要",
+    "version": "バージョン",
+    "developer": "開発者",
+    "license": "ライセンス",
+    "github": "リポジトリ",
+    "email": "お問い合わせ"
+  },
+  "errors": {
+    "selectOutputDir": "出力フォルダを選択してください",
+    "conversionFailed": "変換に失敗しました"
+  },
+  "toast": {
+    "cancelled": "キャンセル済み"
+  },
+  "about": {
+    "title": "概要",
+    "description": "Word、Excel、PowerPointファイルをPDFに変換するデスクトップアプリケーション",
+    "developer": "rn0x",
+    "email": "rn0x.me@gmail.com",
+    "github": "https://github.com/rn0x/Docs2PDF",
+    "license": "MIT",
+    "poweredBy": "office2pdf v0.6.7 使用"
+  }
+}

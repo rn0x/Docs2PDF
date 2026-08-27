@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "code": "ar",
+    "name": "Arabic",
+    "native": "العربية",
+    "flag": "🇸🇦",
+    "dir": "rtl"
+  },
+  "app": {
+    "name": "Docs2PDF",
+    "subtitle": "تحويل الملفات المذكورة إلى PDF"
+  },
+  "splash": {
+    "loading": "جاري التحميل..."
+  },
+  "onboarding": {
+    "title": "اختر لغتك",
+    "subtitle": "اختر لغتك",
+    "continue": "متابعة"
+  },
+  "dropzone": {
+    "dragTitle": "اسحب الملفات هنا",
+    "dragActiveTitle": "أفلت الملفات هنا",
+    "dragSubtitle": "أو اختر الملفات من جهازك",
+    "dragActiveSubtitle": "اترك الملفات لبدء التحويل",
+    "selectFiles": "اختيار الملفات",
+    "formats": "الصيغ المدعومة"
+  },
+  "fileList": {
+    "files": "ملف",
+    "file": "ملف"
+  },
+  "fileItem": {
+    "ready": "جاهز",
+    "converting": "جاري...",
+    "done": "تم",
+    "failed": "فشل",
+    "cancelled": "ملغى",
+    "showDetails": "عرض التفاصيل",
+    "hideDetails": "إخفاء التفاصيل"
+  },
+  "actionBar": {
+    "selectOutputDir": "اختيار مجلد الحفظ",
+    "selectedDir": "المجلد المختار",
+    "clearList": "مسح القائمة",
+    "convertAll": "تحويل الكل",
+    "cancel": "إلغاء"
+  },
+  "summary": {
+    "successTitle": "تم التحويل بنجاح",
+    "failedTitle": "فشل التحويل",
+    "partialTitle": "اكتمل مع أخطاء",
+    "successCount": "ملف تم تحويله بنجاح",
+    "failedCount": "ملف فشل",
+    "showAllFiles": "عرض تفاصيل كل الملفات",
+    "openOutputFolder": "فتح مجلد النتائج",
+    "retryFailed": "إعادة محاولة الفاشل",
+    "convertNew": "تحويل ملفات جديدة",
+    "conversionSuccess": "تم التحويل بنجاح"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "conversion": "التحويل",
+    "duplicateHandling": "التعامل مع الملفات المكررة",
+    "duplicateRename": "إعادة تسمية",
+    "duplicateOverwrite": "كتابة فوق",
+    "paperSize": "حجم الورق",
+    "paperDefault": "افتراضي",
+    "landscape": "أفقي",
+    "pdfA": "PDF/A",
+    "performance": "الأداء",
+    "concurrency": "التعديل المتزامن",
+    "appearance": "المظهر",
+    "theme": "السمة",
+    "themeLight": "فاتح",
+    "themeDark": "داكن",
+    "themeSystem": "النظام",
+    "language": "اللغة",
+    "general": "عام",
+    "autoOpenOutput": "فتح المجلد بعد التحويل",
+    "about": "عن التطبيق",
+    "version": "الإصدار",
+    "developer": "المطور",
+    "license": "الرخصة",
+    "github": "مستودع التطبيق",
+    "email": "تواصل معي"
+  },
+  "errors": {
+    "selectOutputDir": "يرجى اختيار مجلد الحفظ",
+    "conversionFailed": "فشل التحويل"
+  },
+  "toast": {
+    "cancelled": "تم الإلغاء"
+  },
+  "about": {
+    "title": "عن التطبيق",
+    "description": "تطبيق لتحويل ملفات Word وExcel وPowerPoint إلى PDF",
+    "developer": "rn0x",
+    "email": "rn0x.me@gmail.com",
+    "github": "https://github.com/rn0x/Docs2PDF",
+    "license": "MIT",
+    "poweredBy": "مدعوم بـ office2pdf v0.6.7"
+  }
+}

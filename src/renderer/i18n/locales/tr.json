@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "code": "tr",
+    "name": "Turkish",
+    "native": "Türkçe",
+    "flag": "🇹🇷",
+    "dir": "ltr"
+  },
+  "app": {
+    "name": "Docs2PDF",
+    "subtitle": "Belgeleri anında PDF'ye dönüştürün"
+  },
+  "splash": {
+    "loading": "Yükleniyor..."
+  },
+  "onboarding": {
+    "title": "Dilinizi seçin",
+    "subtitle": "Dilinizi seçin",
+    "continue": "Devam"
+  },
+  "dropzone": {
+    "dragTitle": "Dosyaları buraya sürükleyin",
+    "dragActiveTitle": "Dönüştürmek için bırakın",
+    "dragSubtitle": "veya cihazınızdan dosya seçin",
+    "dragActiveSubtitle": "Başlamak için dosyaları bırakın",
+    "selectFiles": "Dosya seç",
+    "formats": "Desteklenen formatlar"
+  },
+  "fileList": {
+    "files": "dosya",
+    "file": "dosya"
+  },
+  "fileItem": {
+    "ready": "Hazır",
+    "converting": "Dönüştürülüyor...",
+    "done": "Tamam",
+    "failed": "Başarısız",
+    "cancelled": "İptal edildi",
+    "showDetails": "Detayları göster",
+    "hideDetails": "Detayları gizle"
+  },
+  "actionBar": {
+    "selectOutputDir": "Hedef klasörü seçin",
+    "selectedDir": "Seçilen klasör",
+    "clearList": "Listeyi temizle",
+    "convertAll": "Tümünü dönüştür",
+    "cancel": "İptal"
+  },
+  "summary": {
+    "successTitle": "Dönüşüm başarılı",
+    "failedTitle": "Dönüşüm başarısız",
+    "partialTitle": "Hatalarla tamamlandı",
+    "successCount": "dosya başarıyla dönüştürüldü",
+    "failedCount": "dosya başarısız oldu",
+    "showAllFiles": "Tüm dosya detaylarını göster",
+    "openOutputFolder": "Sonuç klasörünü aç",
+    "retryFailed": "Başarısız olanları tekrar dene",
+    "convertNew": "Yeni dosyaları dönüştür",
+    "conversionSuccess": "Başarıyla dönüştürüldü"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "conversion": "Dönüşüm",
+    "duplicateHandling": "Kopya dosya yönetimi",
+    "duplicateRename": "Yeniden adlandır",
+    "duplicateOverwrite": "Üzerine yaz",
+    "paperSize": "Kağıt boyutu",
+    "paperDefault": "Varsayılan",
+    "landscape": "Yatay",
+    "pdfA": "PDF/A",
+    "performance": "Performans",
+    "concurrency": "Maks eşzamanlılık",
+    "appearance": "Görünüm",
+    "theme": "Tema",
+    "themeLight": "Açık",
+    "themeDark": "Koyu",
+    "themeSystem": "Sistem",
+    "language": "Dil",
+    "general": "Genel",
+    "autoOpenOutput": "Dönüşüm sonrası klasörü aç",
+    "about": "Hakkında",
+    "version": "Sürüm",
+    "developer": "Geliştirici",
+    "license": "Lisans",
+    "github": "Depo",
+    "email": "İletişim"
+  },
+  "errors": {
+    "selectOutputDir": "Lütfen bir hedef klasör seçin",
+    "conversionFailed": "Dönüşüm başarısız"
+  },
+  "toast": {
+    "cancelled": "İptal edildi"
+  },
+  "about": {
+    "title": "Hakkında",
+    "description": "Word, Excel ve PowerPoint dosyalarını PDF'ye dönüştüren masaüstü uygulaması",
+    "developer": "rn0x",
+    "email": "rn0x.me@gmail.com",
+    "github": "https://github.com/rn0x/Docs2PDF",
+    "license": "MIT",
+    "poweredBy": "office2pdf v0.6.7 ile geliştirildi"
+  }
+}

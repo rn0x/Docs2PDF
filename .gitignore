@@ -1,0 +1,20 @@
+node_modules/
+dist/
+release/
+logs/
+*.log
+.env
+.env.local
+.DS_Store
+Thumbs.db
+
+# Binaries (download via npm run download:binaries)
+vendor/office2pdf/binaries/
+
+# Platform specific
+*.dmg
+*.AppImage
+*.exe
+*.deb
+*.rpm
+*.tar.gz

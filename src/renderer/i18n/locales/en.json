@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "code": "en",
+    "name": "English",
+    "native": "English",
+    "flag": "🇺🇸",
+    "dir": "ltr"
+  },
+  "app": {
+    "name": "Docs2PDF",
+    "subtitle": "Convert documents to PDF instantly"
+  },
+  "splash": {
+    "loading": "Loading..."
+  },
+  "onboarding": {
+    "title": "Choose your language",
+    "subtitle": "Choose your language",
+    "continue": "Continue"
+  },
+  "dropzone": {
+    "dragTitle": "Drop files here",
+    "dragActiveTitle": "Release to convert",
+    "dragSubtitle": "or select files from your device",
+    "dragActiveSubtitle": "Drop files to start conversion",
+    "selectFiles": "Select Files",
+    "formats": "Supported formats"
+  },
+  "fileList": {
+    "files": "files",
+    "file": "file"
+  },
+  "fileItem": {
+    "ready": "Ready",
+    "converting": "Converting...",
+    "done": "Done",
+    "failed": "Failed",
+    "cancelled": "Cancelled",
+    "showDetails": "Show details",
+    "hideDetails": "Hide details"
+  },
+  "actionBar": {
+    "selectOutputDir": "Select output folder",
+    "selectedDir": "Selected folder",
+    "clearList": "Clear list",
+    "convertAll": "Convert all",
+    "cancel": "Cancel"
+  },
+  "summary": {
+    "successTitle": "Conversion successful",
+    "failedTitle": "Conversion failed",
+    "partialTitle": "Completed with errors",
+    "successCount": "files converted successfully",
+    "failedCount": "files failed",
+    "showAllFiles": "Show all file details",
+    "openOutputFolder": "Open output folder",
+    "retryFailed": "Retry failed",
+    "convertNew": "Convert new files",
+    "conversionSuccess": "Converted successfully"
+  },
+  "settings": {
+    "title": "Settings",
+    "conversion": "Conversion",
+    "duplicateHandling": "Duplicate handling",
+    "duplicateRename": "Rename",
+    "duplicateOverwrite": "Overwrite",
+    "paperSize": "Paper size",
+    "paperDefault": "Default",
+    "landscape": "Landscape",
+    "pdfA": "PDF/A",
+    "performance": "Performance",
+    "concurrency": "Max concurrency",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "language": "Language",
+    "general": "General",
+    "autoOpenOutput": "Open folder after conversion",
+    "about": "About",
+    "version": "Version",
+    "developer": "Developer",
+    "license": "License",
+    "github": "Repository",
+    "email": "Contact"
+  },
+  "errors": {
+    "selectOutputDir": "Please select an output folder",
+    "conversionFailed": "Conversion failed"
+  },
+  "toast": {
+    "cancelled": "Cancelled"
+  },
+  "about": {
+    "title": "About",
+    "description": "A desktop app to convert Word, Excel, and PowerPoint files to PDF",
+    "developer": "rn0x",
+    "email": "rn0x.me@gmail.com",
+    "github": "https://github.com/rn0x/Docs2PDF",
+    "license": "MIT",
+    "poweredBy": "Powered by office2pdf v0.6.7"
+  }
+}

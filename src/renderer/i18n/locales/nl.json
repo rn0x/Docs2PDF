@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "code": "nl",
+    "name": "Dutch",
+    "native": "Nederlands",
+    "flag": "🇳🇱",
+    "dir": "ltr"
+  },
+  "app": {
+    "name": "Docs2PDF",
+    "subtitle": "Documenten direct naar PDF converteren"
+  },
+  "splash": {
+    "loading": "Laden..."
+  },
+  "onboarding": {
+    "title": "Kies je taal",
+    "subtitle": "Kies je taal",
+    "continue": "Doorgaan"
+  },
+  "dropzone": {
+    "dragTitle": "Bestanden hier slepen",
+    "dragActiveTitle": "Loslaten om te converteren",
+    "dragSubtitle": "of selecteer bestanden van je apparaat",
+    "dragActiveSubtitle": "Bestanden loslaten om te beginnen",
+    "selectFiles": "Bestanden selecteren",
+    "formats": "Ondersteunde formaten"
+  },
+  "fileList": {
+    "files": "bestanden",
+    "file": "bestand"
+  },
+  "fileItem": {
+    "ready": "Gereed",
+    "converting": "Converteren...",
+    "done": "Gereed",
+    "failed": "Mislukt",
+    "cancelled": "Geannuleerd",
+    "showDetails": "Details tonen",
+    "hideDetails": "Details verbergen"
+  },
+  "actionBar": {
+    "selectOutputDir": "Selecteer doelmap",
+    "selectedDir": "Geselecteerde map",
+    "clearList": "Lijst wissen",
+    "convertAll": "Alles converteren",
+    "cancel": "Annuleren"
+  },
+  "summary": {
+    "successTitle": "Conversie geslaagd",
+    "failedTitle": "Conversie mislukt",
+    "partialTitle": "Voltooid met fouten",
+    "successCount": "bestanden succesvol geconverteerd",
+    "failedCount": "bestanden mislukt",
+    "showAllFiles": "Details van alle bestanden tonen",
+    "openOutputFolder": "Resultatenmap openen",
+    "retryFailed": "Mislukte opnieuw proberen",
+    "convertNew": "Nieuwe bestanden converteren",
+    "conversionSuccess": "Succesvol geconverteerd"
+  },
+  "settings": {
+    "title": "Instellingen",
+    "conversion": "Conversie",
+    "duplicateHandling": "Duplicaatbehandeling",
+    "duplicateRename": "Hernoemen",
+    "duplicateOverwrite": "Overschrijven",
+    "paperSize": "Papierformaat",
+    "paperDefault": "Standaard",
+    "landscape": "Liggend",
+    "pdfA": "PDF/A",
+    "performance": "Prestaties",
+    "concurrency": "Max. paralleliteit",
+    "appearance": "Weergave",
+    "theme": "Thema",
+    "themeLight": "Licht",
+    "themeDark": "Donker",
+    "themeSystem": "Systeem",
+    "language": "Taal",
+    "general": "Algemeen",
+    "autoOpenOutput": "Map openen na conversie",
+    "about": "Over",
+    "version": "Versie",
+    "developer": "Ontwikkelaar",
+    "license": "Licentie",
+    "github": "Repository",
+    "email": "Contact"
+  },
+  "errors": {
+    "selectOutputDir": "Selecteer een doelmap",
+    "conversionFailed": "Conversie mislukt"
+  },
+  "toast": {
+    "cancelled": "Geannuleerd"
+  },
+  "about": {
+    "title": "Over",
+    "description": "Desktop-app om Word-, Excel- en PowerPoint-bestanden naar PDF te converteren",
+    "developer": "rn0x",
+    "email": "rn0x.me@gmail.com",
+    "github": "https://github.com/rn0x/Docs2PDF",
+    "license": "MIT",
+    "poweredBy": "Gebaseerd op office2pdf v0.6.7"
+  }
+}

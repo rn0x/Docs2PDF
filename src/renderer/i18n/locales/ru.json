@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "code": "ru",
+    "name": "Russian",
+    "native": "Русский",
+    "flag": "🇷🇺",
+    "dir": "ltr"
+  },
+  "app": {
+    "name": "Docs2PDF",
+    "subtitle": "Мгновенное преобразование документов в PDF"
+  },
+  "splash": {
+    "loading": "Загрузка..."
+  },
+  "onboarding": {
+    "title": "Выберите язык",
+    "subtitle": "Выберите язык",
+    "continue": "Продолжить"
+  },
+  "dropzone": {
+    "dragTitle": "Перетащите файлы сюда",
+    "dragActiveTitle": "Отпустите для преобразования",
+    "dragSubtitle": "или выберите файлы с вашего устройства",
+    "dragActiveSubtitle": "Отпустите файлы для начала",
+    "selectFiles": "Выбрать файлы",
+    "formats": "Поддерживаемые форматы"
+  },
+  "fileList": {
+    "files": "файлов",
+    "file": "файл"
+  },
+  "fileItem": {
+    "ready": "Готово",
+    "converting": "Преобразование...",
+    "done": "Готово",
+    "failed": "Ошибка",
+    "cancelled": "Отменено",
+    "showDetails": "Показать подробности",
+    "hideDetails": "Скрыть подробности"
+  },
+  "actionBar": {
+    "selectOutputDir": "Выбрать папку назначения",
+    "selectedDir": "Выбранная папка",
+    "clearList": "Очистить список",
+    "convertAll": "Преобразовать все",
+    "cancel": "Отмена"
+  },
+  "summary": {
+    "successTitle": "Преобразование успешно",
+    "failedTitle": "Ошибка преобразования",
+    "partialTitle": "Завершено с ошибками",
+    "successCount": "файлов успешно преобразовано",
+    "failedCount": "файлов с ошибкой",
+    "showAllFiles": "Показать подробности всех файлов",
+    "openOutputFolder": "Открыть папку результатов",
+    "retryFailed": "Повторить для ошибочных",
+    "convertNew": "Преобразовать новые файлы",
+    "conversionSuccess": "Успешно преобразовано"
+  },
+  "settings": {
+    "title": "Настройки",
+    "conversion": "Преобразование",
+    "duplicateHandling": "Обработка дубликатов",
+    "duplicateRename": "Переименовать",
+    "duplicateOverwrite": "Заменить",
+    "paperSize": "Размер бумаги",
+    "paperDefault": "По умолчанию",
+    "landscape": "Альбомная",
+    "pdfA": "PDF/A",
+    "performance": "Производительность",
+    "concurrency": "Макс. параллельность",
+    "appearance": "Внешний вид",
+    "theme": "Тема",
+    "themeLight": "Светлая",
+    "themeDark": "Тёмная",
+    "themeSystem": "Системная",
+    "language": "Язык",
+    "general": "Общие",
+    "autoOpenOutput": "Открыть папку после преобразования",
+    "about": "О программе",
+    "version": "Версия",
+    "developer": "Разработчик",
+    "license": "Лицензия",
+    "github": "Репозиторий",
+    "email": "Контакт"
+  },
+  "errors": {
+    "selectOutputDir": "Пожалуйста, выберите папку назначения",
+    "conversionFailed": "Ошибка преобразования"
+  },
+  "toast": {
+    "cancelled": "Отменено"
+  },
+  "about": {
+    "title": "О программе",
+    "description": "Настольное приложение для преобразования файлов Word, Excel и PowerPoint в PDF",
+    "developer": "rn0x",
+    "email": "rn0x.me@gmail.com",
+    "github": "https://github.com/rn0x/Docs2PDF",
+    "license": "MIT",
+    "poweredBy": "На основе office2pdf v0.6.7"
+  }
+}

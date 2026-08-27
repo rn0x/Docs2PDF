@@ -1,0 +1,38 @@
+.lang-selector {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.lang-select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 5px 28px 5px 10px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--font-family);
+  cursor: pointer;
+  min-width: 120px;
+  transition: all 0.15s ease;
+}
+
+.lang-select:hover {
+  border-color: var(--accent);
+  background: var(--bg-hover);
+}
+
+.lang-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.lang-chevron {
+  position: absolute;
+  inset-inline-start: 8px;
+  pointer-events: none;
+  color: var(--text-tertiary);
+}

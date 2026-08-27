@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "code": "hi",
+    "name": "Hindi",
+    "native": "हिन्दी",
+    "flag": "🇮🇳",
+    "dir": "ltr"
+  },
+  "app": {
+    "name": "Docs2PDF",
+    "subtitle": "दस्तावेज़ों को तुरंत PDF में बदलें"
+  },
+  "splash": {
+    "loading": "लोड हो रहा है..."
+  },
+  "onboarding": {
+    "title": "अपनी भाषा चुनें",
+    "subtitle": "अपनी भाषा चुनें",
+    "continue": "जारी रखें"
+  },
+  "dropzone": {
+    "dragTitle": "फ़ाइलें यहाँ खींचें",
+    "dragActiveTitle": "बदलने के लिए छोड़ें",
+    "dragSubtitle": "या अपने डिवाइस से फ़ाइलें चुनें",
+    "dragActiveSubtitle": "शुरू करने के लिए फ़ाइलें छोड़ें",
+    "selectFiles": "फ़ाइलें चुनें",
+    "formats": "समर्थित प्रारूप"
+  },
+  "fileList": {
+    "files": "फ़ाइलें",
+    "file": "फ़ाइल"
+  },
+  "fileItem": {
+    "ready": "तैयार",
+    "converting": "बदल रहा है...",
+    "done": "हो गया",
+    "failed": "विफल",
+    "cancelled": "रद्द",
+    "showDetails": "विवरण दिखाएं",
+    "hideDetails": "विवरण छुपाएं"
+  },
+  "actionBar": {
+    "selectOutputDir": "आउटपुट फ़ोल्डर चुनें",
+    "selectedDir": "चुना गया फ़ोल्डर",
+    "clearList": "सूची साफ़ करें",
+    "convertAll": "सभी बदलें",
+    "cancel": "रद्द"
+  },
+  "summary": {
+    "successTitle": "रूपांतरण सफल",
+    "failedTitle": "रूपांतरण विफल",
+    "partialTitle": "त्रुटियों के साथ पूर्ण",
+    "successCount": "फ़ाइलें सफलतापूर्वक बदली गईं",
+    "failedCount": "फ़ाइलें विफल",
+    "showAllFiles": "सभी फ़ाइलों का विवरण दिखाएं",
+    "openOutputFolder": "परिणाम फ़ोल्डर खोलें",
+    "retryFailed": "विफल को पुनः प्रयास करें",
+    "convertNew": "नई फ़ाइलें बदलें",
+    "conversionSuccess": "सफलतापूर्वक बदला गया"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "conversion": "रूपांतरण",
+    "duplicateHandling": "डुप्लिकेट प्रबंधन",
+    "duplicateRename": "नाम बदलें",
+    "duplicateOverwrite": "ओवरराइट",
+    "paperSize": "पेपर का आकार",
+    "paperDefault": "डिफ़ॉल्ट",
+    "landscape": "landscape",
+    "pdfA": "PDF/A",
+    "performance": "प्रदर्शन",
+    "concurrency": "अधिकतम concurrency",
+    "appearance": "दिखावट",
+    "theme": "थीम",
+    "themeLight": "लाइट",
+    "themeDark": "डार्क",
+    "themeSystem": "सिस्टम",
+    "language": "भाषा",
+    "general": "सामान्य",
+    "autoOpenOutput": "रूपांतरण के बाद फ़ोल्डर खोलें",
+    "about": "के बारे में",
+    "version": "संस्करण",
+    "developer": "डेवलपर",
+    "license": "लाइसेंस",
+    "github": "रिपॉज़िटरी",
+    "email": "संपर्क"
+  },
+  "errors": {
+    "selectOutputDir": "कृपया एक आउटपुट फ़ोल्डर चुनें",
+    "conversionFailed": "रूपांतरण विफल"
+  },
+  "toast": {
+    "cancelled": "रद्द"
+  },
+  "about": {
+    "title": "के बारे में",
+    "description": "Word, Excel और PowerPoint फ़ाइलों को PDF में बदलने के लिए डेस्कटॉप एप्लिकेशन",
+    "developer": "rn0x",
+    "email": "rn0x.me@gmail.com",
+    "github": "https://github.com/rn0x/Docs2PDF",
+    "license": "MIT",
+    "poweredBy": "office2pdf v0.6.7 द्वारा संचालित"
+  }
+}

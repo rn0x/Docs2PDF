@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "code": "zh-CN",
+    "name": "Chinese (Simplified)",
+    "native": "简体中文",
+    "flag": "🇨🇳",
+    "dir": "ltr"
+  },
+  "app": {
+    "name": "Docs2PDF",
+    "subtitle": "即时将文档转换为PDF"
+  },
+  "splash": {
+    "loading": "加载中..."
+  },
+  "onboarding": {
+    "title": "选择您的语言",
+    "subtitle": "选择您的语言",
+    "continue": "继续"
+  },
+  "dropzone": {
+    "dragTitle": "将文件拖放到此处",
+    "dragActiveTitle": "释放以转换",
+    "dragSubtitle": "或从设备中选择文件",
+    "dragActiveSubtitle": "放下文件开始转换",
+    "selectFiles": "选择文件",
+    "formats": "支持的格式"
+  },
+  "fileList": {
+    "files": "个文件",
+    "file": "个文件"
+  },
+  "fileItem": {
+    "ready": "就绪",
+    "converting": "转换中...",
+    "done": "完成",
+    "failed": "失败",
+    "cancelled": "已取消",
+    "showDetails": "显示详情",
+    "hideDetails": "隐藏详情"
+  },
+  "actionBar": {
+    "selectOutputDir": "选择输出文件夹",
+    "selectedDir": "已选文件夹",
+    "clearList": "清空列表",
+    "convertAll": "全部转换",
+    "cancel": "取消"
+  },
+  "summary": {
+    "successTitle": "转换成功",
+    "failedTitle": "转换失败",
+    "partialTitle": "完成但有错误",
+    "successCount": "个文件转换成功",
+    "failedCount": "个文件转换失败",
+    "showAllFiles": "显示所有文件详情",
+    "openOutputFolder": "打开输出文件夹",
+    "retryFailed": "重试失败项",
+    "convertNew": "转换新文件",
+    "conversionSuccess": "转换成功"
+  },
+  "settings": {
+    "title": "设置",
+    "conversion": "转换",
+    "duplicateHandling": "重复文件处理",
+    "duplicateRename": "重命名",
+    "duplicateOverwrite": "覆盖",
+    "paperSize": "纸张大小",
+    "paperDefault": "默认",
+    "landscape": "横向",
+    "pdfA": "PDF/A",
+    "performance": "性能",
+    "concurrency": "最大并发数",
+    "appearance": "外观",
+    "theme": "主题",
+    "themeLight": "浅色",
+    "themeDark": "深色",
+    "themeSystem": "跟随系统",
+    "language": "语言",
+    "general": "通用",
+    "autoOpenOutput": "转换后打开文件夹",
+    "about": "关于",
+    "version": "版本",
+    "developer": "开发者",
+    "license": "许可证",
+    "github": "仓库",
+    "email": "联系"
+  },
+  "errors": {
+    "selectOutputDir": "请选择输出文件夹",
+    "conversionFailed": "转换失败"
+  },
+  "toast": {
+    "cancelled": "已取消"
+  },
+  "about": {
+    "title": "关于",
+    "description": "将Word、Excel和PowerPoint文件转换为PDF的桌面应用程序",
+    "developer": "rn0x",
+    "email": "rn0x.me@gmail.com",
+    "github": "https://github.com/rn0x/Docs2PDF",
+    "license": "MIT",
+    "poweredBy": "基于 office2pdf v0.6.7"
+  }
+}

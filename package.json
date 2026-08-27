@@ -1,0 +1,132 @@
+{
+  "name": "docs2pdf",
+  "version": "1.0.0",
+  "description": "Docs2PDF - Convert Word, Excel, PowerPoint files to PDF instantly using office2pdf",
+  "author": {
+    "name": "Rayan Almalki",
+    "email": "rn0x.me@gmail.com",
+    "url": "https://i8x.net"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/rn0x/Docs2PDF",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rn0x/Docs2PDF"
+  },
+  "bugs": {
+    "url": "https://github.com/rn0x/Docs2PDF/issues"
+  },
+  "main": "src/main/main.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "dev": "vite",
+    "build": "vite build",
+    "clean": "node -e \"fs.rmSync('dist', { recursive: true, force: true })\"",
+    "pack": "npm run build && electron-builder --dir",
+    "pack:linux": "npm run build && electron-builder --linux",
+    "pack:appimage": "npm run build && electron-builder --linux AppImage",
+    "pack:deb": "npm run build && electron-builder --linux deb",
+    "pack:rpm": "npm run build && electron-builder --linux rpm",
+    "pack:flatpak": "npm run build && electron-builder --linux flatpak",
+    "pack:snap": "npm run build && electron-builder --linux snap",
+    "pack:pacman": "npm run build && electron-builder --linux pacman",
+    "pack:tar": "npm run build && electron-builder --linux tar.gz",
+    "pack:win": "npm run build && electron-builder --windows",
+    "pack:win:portable": "npm run build && electron-builder --windows portable",
+    "pack:mac": "npm run build && electron-builder --mac",
+    "packlinux": "npm run pack:linux",
+    "packwin": "npm run pack:win",
+    "dist": "npm run build && electron-builder",
+    "download:binaries": "node scripts/download-binaries.mjs",
+    "electron:dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && electron .\"",
+    "electron:publish": "vite build && electron-builder --publish always",
+    "test": "node --test tests/**/*.test.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "concurrently": "^9.1.2",
+    "electron": "^35.2.1",
+    "electron-builder": "^26.0.12",
+    "vite": "^6.3.5",
+    "wait-on": "^8.0.3"
+  },
+  "build": {
+    "productName": "Docs2PDF",
+    "appId": "com.docs2pdf.app",
+    "copyright": "Copyright © 2026 rn0x",
+    "directories": {
+      "output": "release",
+      "buildResources": "resources"
+    },
+    "files": [
+      "dist/**/*",
+      "src/main/**/*",
+      "src/preload/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "vendor/office2pdf/binaries",
+        "to": "converter/binaries",
+        "filter": [
+          "!*.tar.gz",
+          "!*.zip"
+        ]
+      },
+      {
+        "from": "vendor/office2pdf/VERSION",
+        "to": "converter/VERSION"
+      }
+    ],
+    "publish": {
+      "provider": "github",
+      "owner": "rn0x",
+      "repo": "Docs2PDF",
+      "protocol": "https"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm",
+        "tar.gz"
+      ],
+      "icon": "public/icon.png",
+      "category": "Utility",
+      "vendor": "rn0x",
+      "description": "Docs2PDF - Convert Word, Excel, PowerPoint files to PDF",
+      "synopsis": "Document to PDF Converter"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "public/icon.ico",
+      "signAndEditExecutable": true,
+      "artifactName": "${productName}-Setup-${version}.${ext}"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "icon": "public/icon.icns",
+      "category": "public.app-category.utilities",
+      "artifactName": "${productName}-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Docs2PDF",
+      "installerIcon": "public/icon.ico",
+      "uninstallerIcon": "public/icon.ico"
+    }
+  }
+}

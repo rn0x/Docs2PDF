@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "code": "fa",
+    "name": "Persian",
+    "native": "فارسی",
+    "flag": "🇮🇷",
+    "dir": "rtl"
+  },
+  "app": {
+    "name": "Docs2PDF",
+    "subtitle": "تبدیل فایل‌های ذکرشده به PDF"
+  },
+  "splash": {
+    "loading": "در حال بارگذاری..."
+  },
+  "onboarding": {
+    "title": "زبان خود را انتخاب کنید",
+    "subtitle": "زبان خود را انتخاب کنید",
+    "continue": "ادامه"
+  },
+  "dropzone": {
+    "dragTitle": "فایل‌ها را اینجا بکشید",
+    "dragActiveTitle": "فایل‌ها را اینجا رها کنید",
+    "dragSubtitle": "یا فایل‌ها را از دستگاه خود انتخاب کنید",
+    "dragActiveSubtitle": "فایل‌ها را رها کنید تا تبدیل آغاز شود",
+    "selectFiles": "انتخاب فایل‌ها",
+    "formats": "فرمت‌های پشتیبانی‌شده"
+  },
+  "fileList": {
+    "files": "فایل",
+    "file": "فایل"
+  },
+  "fileItem": {
+    "ready": "آماده",
+    "converting": "در حال تبدیل...",
+    "done": "انجام شد",
+    "failed": "ناموفق",
+    "cancelled": "لغو شد",
+    "showDetails": "نمایش جزئیات",
+    "hideDetails": "پنهان کردن جزئیات"
+  },
+  "actionBar": {
+    "selectOutputDir": "انتخاب پوشه ذخیره‌سازی",
+    "selectedDir": "پوشه انتخاب‌شده",
+    "clearList": "پاک کردن فهرست",
+    "convertAll": "تبدیل همه",
+    "cancel": "لغو"
+  },
+  "summary": {
+    "successTitle": "تبدیل با موفقیت انجام شد",
+    "failedTitle": "تبدیل ناموفق بود",
+    "partialTitle": "تبدیل با خطاهایی انجام شد",
+    "successCount": "فایل با موفقیت تبدیل شد",
+    "failedCount": "فایل ناموفق بود",
+    "showAllFiles": "نمایش جزئیات همه فایل‌ها",
+    "openOutputFolder": "باز کردن پوشه نتایج",
+    "retryFailed": "تلاش مجدد برای فایل‌های ناموفق",
+    "convertNew": "تبدیل فایل‌های جدید",
+    "conversionSuccess": "تبدیل با موفقیت انجام شد"
+  },
+  "settings": {
+    "title": "تنظیمات",
+    "conversion": "تبدیل",
+    "duplicateHandling": "نحوه مدیریت فایل‌های تکراری",
+    "duplicateRename": "تغییر نام",
+    "duplicateOverwrite": "بازنویسی",
+    "paperSize": "اندازه کاغذ",
+    "paperDefault": "پیش‌فرض",
+    "landscape": "افقی",
+    "pdfA": "PDF/A",
+    "performance": "عملکرد",
+    "concurrency": "تبدیل همزمان",
+    "appearance": "ظاهر",
+    "theme": "پوسته",
+    "themeLight": "روشن",
+    "themeDark": "تیره",
+    "themeSystem": "سیستم",
+    "language": "زبان",
+    "general": "عمومی",
+    "autoOpenOutput": "باز کردن پوشه پس از تبدیل",
+    "about": "درباره برنامه",
+    "version": "نسخه",
+    "developer": "توسعه‌دهنده",
+    "license": "مجوز",
+    "github": "مخزن برنامه",
+    "email": "تماس با من"
+  },
+  "errors": {
+    "selectOutputDir": "لطفاً پوشه ذخیره‌سازی را انتخاب کنید",
+    "conversionFailed": "تبدیل ناموفق بود"
+  },
+  "toast": {
+    "cancelled": "لغو شد"
+  },
+  "about": {
+    "title": "درباره برنامه",
+    "description": "برنامه‌ای برای تبدیل فایل‌های Word، Excel و PowerPoint به PDF",
+    "developer": "rn0x",
+    "email": "rn0x.me@gmail.com",
+    "github": "https://github.com/rn0x/Docs2PDF",
+    "license": "MIT",
+    "poweredBy": "قدرت‌گرفته از office2pdf v0.6.7"
+  }
+}
