@@ -18,3 +18,4 @@ vendor/office2pdf/binaries/
 *.deb
 *.rpm
 *.tar.gz
+flatpak/*.flatpak
